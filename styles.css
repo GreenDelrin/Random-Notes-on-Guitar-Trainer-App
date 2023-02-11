@@ -1,0 +1,48 @@
+body {
+    border: 0;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 20px;
+    background-color: rgb(191, 216, 224);
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#generate {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+input {
+    width: 350px;
+    margin: auto;
+}
+
+button {
+    height: 35px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(175, 175, 175);
+
+}
+
+#tab {
+    line-height: 3px;
+}
